@@ -21,13 +21,13 @@
                                            <input type="text" class="form-control form-control-user" id="email" name="email" placeholder="Enter Email Address..." value="<?= set_value('email'); ?>">
                                            <?= form_error('email', '<small class="text-danger pl-3">', '</small>'); ?>
                                        </div>
-                                       <button type="submit" class="btn btn-reset btn-user btn-block">
+                                       <button class="btn btn-user bg-danger text-white" type="submit" >
                                            Reset Password
                                        </button>
                                    </form>
-                                   <hr class="bg-white">
+                                   <hr class="bg-black">
                                    <div class="text-center">
-                                       <a class="small text-white" href="<?= base_url('auth') ?> ">Back to login!</a>
+                                       <a class="small text-bem" href="<?= base_url('auth') ?> ">Back to login!</a>
                                    </div>
                                </div>
                            </div>
