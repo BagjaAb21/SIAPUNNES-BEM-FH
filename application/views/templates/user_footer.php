@@ -9,27 +9,22 @@
             <div class="col-lg-3 col-md-6">
               <div class="">
                 <div class="list-space-footer-2-2">
-                  <!-- <img src="http://api.elements.buildwithangga.com/storage/files/2/assets/Header/Header2/Header-2-5.png" alt="" /> -->
+                   <img class=" logo-footer" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="" /> 
                 </div>
                 <nav style="list-style-type: none">
                   <li class="list-space-footer-2-2">
-                    <a class="list-menu-footer-2-2">Home</a>
+                    <a href="<?= base_url('aduan'); ?>" class="list-menu-footer-2-2">Home</a>
                   </li>
                   <li class="list-space-footer-2-2">
-                    <a class="list-menu-footer-2-2">About</a>
+                    <a href="<?= base_url('aduan/profile'); ?>" class="list-menu-footer-2-2">Profile</a>
                   </li>
                   <li class="list-space-footer-2-2">
-                    <a class="list-menu-footer-2-2">Features</a>
+                    <a href="<?= base_url('aduan/info'); ?>" class="list-menu-footer-2-2">Info</a>
                   </li>
                   <li class="list-space-footer-2-2">
-                    <a class="list-menu-footer-2-2">Pricing</a>
+                    <a href="<?= base_url('aduan/aduanMasuk'); ?>" class="list-menu-footer-2-2">Aduan</a>
                   </li>
-                  <li class="list-space-footer-2-2">
-                    <a class="list-menu-footer-2-2">Testimonial</a>
-                  </li>
-                  <li class="list-space-footer-2-2">
-                    <a class="list-menu-footer-2-2">Help</a>
-                  </li>
+                
                 </nav>
               </div>
             </div>
@@ -71,16 +66,15 @@
               </nav>
             </div>
             <div class="col-lg-3 col-md-6">
-              <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Support</h2>
+              <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Admin</h2>
               <nav style="list-style-type: none">
                 <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Getting Started</a>
+                  <a class="list-menu-footer-2-2">
+                  Dede Indraswara <br> <a href="mailto:dedeindraswara01@gmail.com">  dedeindraswara01@gmail.com </a><br> <a href="https://api.whatsapp.com/send?phone=6282230290488">082230290488</a> </a>
                 </li>
                 <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Help Center</a>
-                </li>
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Server Status</a>
+                  <a class="list-menu-footer-2-2">
+                  Dian Febriyanti <br> <a href="mailto:dianfebriyanti0@gmail.com"> dianfebriyanti0@gmail.com </a><br> <a href="https://api.whatsapp.com/send?phone=6281520353509">081520353509</a></a>
                 </li>
               </nav>
             </div>

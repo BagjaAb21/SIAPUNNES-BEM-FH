@@ -40,5 +40,5 @@
 
 <body id="page-top">
     <!-- Outer Row -->
-    <div class="row justify-content-center text-white bg-bem pt-5 shadow-md">
+    <div class="row justify-content-center text-white bg-bem pt-5 pl-2 shadow-md">
         

@@ -40,23 +40,7 @@
 
                                         </tr>
                                     </thead>
-                                    <tbody>
-                                        <?php $i = 1; ?>
-                                        <?php foreach ($dataMahasiswa as $dm) : ?>
-                                            <tr>
-                                                <th scope="row"><?= $i ?> </th>
-                                                <th scope="row"><?= $dm['nim'] ?> </th>
-                                                <th scope="row"><?= $dm['nama'] ?> </th>
-                                                <th scope="row"><?= $dm['jurusan'] ?> </th>
-                                                <th scope="row"><?= $dm['tahun'] ?> </th>
-                                                <th scope="row">
-                                                    <a href="" data-toggle="modal" data-target="#updateMahasiswaModal<?= $dm['nim']; ?>" class="badge badge-success">edit</a>
-                                                    <a class="badge badge-danger" href="<?= base_url(); ?>data/deletemahasiswa/<?= $dm['nim']; ?> ">delete</a>
-                                                </th>
-                                            </tr>
-                                            <?php $i++ ?>
-                                        <?php endforeach ?>
-                                    </tbody>
+
                                 </table>
                             </div>
                         </div>
@@ -111,43 +95,6 @@
 </div>
 
 
-<!-- Modal -->
-<?php $i = 0; ?>
-<?php foreach ($dataMahasiswa as $dm) : $i++ ?>
-    <div class="modal fade" id="updateMahasiswaModal<?= $dm['nim']; ?>" tabindex="-1" aria-labelledby="updateMahasiswaModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="newSubMenuModalLabel">Edit data mahasiswa</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                        <span aria-hidden="true">&times;</span>
-                    </button>
-                </div>
-                <div class="modal-body">
-                    <?= form_open_multipart('data/updateMahasiswa'); ?>
-                    <input type="number" class="form-control" id="nim" name="nim" value="<?= $dm['nim']; ?>" hidden>
-                    <div class=" form-group">
-                        <input type="text" class="form-control" id="updateNim" name="updateNim" value="<?= $dm['nim']; ?>" readonly>
-                    </div>
-                    <div class=" form-group">
-                        <input type="text" class="form-control" id="updateNama" name="updateNama" value="<?= $dm['nama']; ?>">
-                    </div>
-                    <div class=" form-group">
-                        <input type="text" class="form-control" id="updateJurusan" name="updateJurusan" value="<?= $dm['jurusan']; ?>">
-                    </div>
-                    <div class=" form-group">
-                        <input type="text" class="form-control" id="updateTahun" name="updateTahun" value="<?= $dm['tahun']; ?>">
-                    </div>
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Add</button>
-                </div>
-                </form>
-            </div>
-        </div>
-    </div>
-<?php endforeach ?>
 
 <div id="modalUpload" class="modal fade bd-example-modal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">

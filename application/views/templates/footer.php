@@ -64,7 +64,22 @@
 
 <script>
     $(document).ready(function() {
-        $('#tableGagal').DataTable();
+        $('#tableMahasiswa').DataTable({
+            "processing": true,
+            "serverSide": true,
+            "order": [],
+
+            "ajax": {
+                "url": "<?= site_url('data/get_data_mahasiswa') ?>",
+                "type": "POST"
+            },
+
+
+            "columnDefs": [{
+                "targets": [0],
+                "orderable": false,
+            }, ],
+        });
     });
     $(document).ready(function() {
         $('#tableMahasiswa').DataTable();

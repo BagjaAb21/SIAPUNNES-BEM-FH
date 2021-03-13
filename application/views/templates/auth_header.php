@@ -24,4 +24,4 @@
     
 </head>
 
-<body class="bg-bem">
+<body  style="background-image: url('<?= base_url() ?>assets/img/Unnesforgotpw.jpg'); ">

@@ -8,6 +8,7 @@ class Data extends CI_Controller
         parent::__construct();
         is_logged_in();
         $this->load->model('Aduan_model');
+        $this->load->model('Data_model');
         $this->load->library('Excel');
     }
 
@@ -72,12 +73,39 @@ class Data extends CI_Controller
 
         $object_writer->save('php://output');
     }
+    function get_data_mahasiswa()
+    {
+        $list = $this->Data_model->get_datatables();
+        $data = array();
+        $no = $_POST['start'];
+        foreach ($list as $field) {
+            $no++;
+            $row = array();
+            $row[] = $no;
+            $row[] = $field->nim;
+            $row[] = $field->nama;
+            $row[] = $field->jurusan;
+            $row[] = $field->tahun;
+            $row[] = '<a href="' . base_url() . 'data/updatemahasiswa/' . $field->nim . '" class="badge badge-success">edit</a>
+            <a class="badge badge-danger" href="' . base_url() . 'data/deletemahasiswa/' . $field->nim . '">delete</a>';
+
+            $data[] = $row;
+        }
+
+        $output = array(
+            "draw" => $_POST['draw'],
+            "recordsTotal" => $this->Data_model->count_all(),
+            "recordsFiltered" => $this->Data_model->count_filtered(),
+            "data" => $data,
+        );
+        //output dalam format JSON
+        echo json_encode($output);
+    }
     public function dataMahasiswa()
     {
         $data['title'] = 'Data Mahasiswa';
         $data['user'] = $this->db->get_where('user', ['email' =>
         $this->session->userdata('email')])->row_array();
-        $data['dataMahasiswa'] = $this->db->get('data_mahasiswa')->result_array();
         $data['dataGagal'] = $this->db->get('data_mahasiswa_gagal')->result_array();
 
         $this->form_validation->set_rules('nim', 'Nim', 'required');
@@ -132,8 +160,7 @@ class Data extends CI_Controller
                 );
                 $nim = $rowData[0][0];
                 $nama = $rowData[0][1];
-                $jurusan = $rowData[0][2];
-                $tahun = $rowData[0][3];
+                $tahun = $rowData[0][2];
 
                 $cari = $this->db->get_where('data_mahasiswa', ['nim' => $nim])->row_array();
                 if (empty($nim)) {
@@ -155,11 +182,11 @@ class Data extends CI_Controller
                     $data = array(
                         "nim" => $nim,
                         "nama" => $nama,
-                        "jurusan" => $jurusan,
+                        "jurusan" => "Ilmu Hukum",
                         "tahun" => $tahun
                     );
 
-                    if ($data["nim"] != 'nim') {
+                    if ($data["nim"] != 'NIM') {
                         $this->db->insert("data_mahasiswa", $data);
                     }
                 }
@@ -170,20 +197,37 @@ class Data extends CI_Controller
 
         redirect('data/dataMahasiswa');
     }
-    public function updateMahasiswa()
+    public function updateMahasiswa($nim)
     {
-        $nim = $this->input->post('nim');
-        $data = [
-            'nama' => $this->input->post('updateNama'),
-            'jurusan' => $this->input->post('updateJurusan'),
-            'tahun'  => $this->input->post('updateTahun'),
-        ];
+        $data['title'] = 'Edit Mahasiswa';
+        $data['user'] = $this->db->get_where('user', ['email' =>
+        $this->session->userdata('email')])->row_array();
+        $data['dataMahasiswa'] = $this->db->get_where('data_mahasiswa', ['nim' => $nim])->row_array();
 
-        $this->db->where('nim', $nim);
-        $this->db->update('data_mahasiswa', $data);
-        $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
+        $this->form_validation->set_rules('updateNim', 'updatenim', 'required');
+        $this->form_validation->set_rules('updateNama', 'updatenama', 'required');
+        $this->form_validation->set_rules('updateJurusan', 'updatejurusan', 'required');
+        $this->form_validation->set_rules('updateTahun', 'updatetahun', 'required');
+        if ($this->form_validation->run() == false) {
+            $this->load->view('templates/header', $data);
+            $this->load->view('templates/sidebar', $data);
+            $this->load->view('templates/topbar', $data);
+            $this->load->view('data/editMahasiswa', $data);
+            $this->load->view('templates/footer');
+        } else {
+            $nim = $this->input->post('nim');
+            $data = [
+                'nama' => $this->input->post('updateNama'),
+                'jurusan' => $this->input->post('updateJurusan'),
+                'tahun'  => $this->input->post('updateTahun'),
+            ];
+
+            $this->db->where('nim', $nim);
+            $this->db->update('data_mahasiswa', $data);
+            $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
         Data mahasiswa berhasil diubah!!</div>');
-        redirect('data/dataMahasiswa');
+            redirect('data/dataMahasiswa');
+        }
     }
     public function deleteMahasiswa($nim)
     {
