@@ -76,9 +76,7 @@
 	width: 50%;
 }
 
-.gambar {
-	width: 500px;
-}
+
 
 /* dari elements bwa  footer */
 
@@ -95,17 +93,18 @@
 	color: #000000;
 }
 .list-menu-footer-2-2 {
-	color: #c7c7c7;
+	color: #555252;
 	text-decoration: none !important;
 	cursor: pointer;
 }
 .list-menu-footer-2-2:hover {
-	color: #555252;
+	color: black;
 }
 hr.hr-footer-2-2 {
 	margin: 0;
 	border: 0;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: black;
 }
 .border-color-footer-2-2 {
 	color: #c7c7c7;
@@ -358,17 +357,18 @@ hr.hr-footer-2-2 {
 	color: #000000;
 }
 .list-menu-footer-2-2 {
-	color: #c7c7c7;
+	color: #555252;
 	text-decoration: none !important;
 	cursor: pointer;
 }
 .list-menu-footer-2-2:hover {
-	color: #555252;
+	color: black;
 }
 hr.hr-footer-2-2 {
 	margin: 0;
 	border: 0;
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
+	background-color: black;
 }
 .border-color-footer-2-2 {
 	color: #c7c7c7;

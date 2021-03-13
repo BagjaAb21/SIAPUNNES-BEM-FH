@@ -6,7 +6,7 @@
       <div style="font-family: 'Poppins', sans-serif">
         <div class="list-footer-footer-2-2">
           <div class="row">
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
               <div class="">
                 <div class="list-space-footer-2-2">
                    <img class=" logo-footer" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="" /> 
@@ -24,31 +24,10 @@
                   <li class="list-space-footer-2-2">
                     <a href="<?= base_url('aduan/aduanMasuk'); ?>" class="list-menu-footer-2-2">Aduan</a>
                   </li>
-                
                 </nav>
               </div>
-            </div>
-            <div class="col-lg-3 col-md-6">
-              <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Product</h2>
-              <nav style="list-style-type: none">
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Real Time Analytic</a>
-                </li>
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Easy to Operate</a>
-                </li>
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Full Secured</a>
-                </li>
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Analytic Tool</a>
-                </li>
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Story</a>
-                </li>
-              </nav>
-            </div>
-            <div class="col-lg-3 col-md-6">
+            </div>      
+            <div class="col-lg-4 col-md-6">
               <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Company</h2>
               <nav style="list-style-type: none">
                 <li class="list-space-footer-2-2">
@@ -65,7 +44,7 @@
                 </li>
               </nav>
             </div>
-            <div class="col-lg-3 col-md-6">
+            <div class="col-lg-4 col-md-6">
               <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Admin</h2>
               <nav style="list-style-type: none">
                 <li class="list-space-footer-2-2">
@@ -101,7 +80,7 @@
                   </clipPath>
                 </defs>
               </svg>
-              <svg class="social-media-c-footer-2-2 social-media-center-1-footer-2-2" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="social-media-c-footer-2-2 social-media-center-1-footer-2-2 " width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="15" cy="15" r="15" fill="#C7C7C7" />
                 <g clip-path="url(#clip0)">
                   <path
@@ -141,15 +120,8 @@
                 </defs>
               </svg>
             </div>
-            <nav class="mx-auto d-flex flex-wrap align-items-center justify-content-center footer-responsive-space-footer-2-2">
-              <a class="footer-link-footer-2-2" style="text-decoration: none">Terms of Service</a>
-              <span style="margin-right: 1.25rem">|</span>
-              <a class="footer-link-footer-2-2" style="text-decoration: none">Privacy Policy</a>
-              <span style="margin-right: 1.25rem">|</span>
-              <a class="footer-link-footer-2-2" style="text-decoration: none">Licenses</a>
-            </nav>
             <nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
-              <p style="margin: 0">Copyright © 2021 Analystic Max</p>
+              <p class="ml-5 mt-2 text-dark" style="margin: 0">Copyright &copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></p>
             </nav>
           </div>
         </div>
