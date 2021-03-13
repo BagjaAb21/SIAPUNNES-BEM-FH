@@ -30,10 +30,10 @@
         </div>
     </div>
 
-        <div class="row justify-content-center">
-            <div class="col-md-4 mb-3">
+        <div class="row justify-content-center mr-2">
+            <div class="col-md-4 mb-3 ">
                 <div class="card p-2">
-                    <img src="<?= base_url() ?>assets/img/img_admin/Aldita_Evan_Prihama.png" class="card-img-top bg-bem img-thumbnail" alt="Aldita Evan Prihama">
+                    <img src="<?= base_url() ?>assets/img/img_admin/Aldita_Evan_Prihama.png" class="card-img-top bg-cardd img-thumbnail" alt="Aldita Evan Prihama">
                     <div class="card-body">
                         <p class="card-text text-dark">Puncak dari segala Ilmu ialah ketenangan yang melahirkan kedamaian dan keindahan. Keseimbangan pola, rasa, dan kata laksana suara gugurnya daun kering ke tepian akar.</p>
                     </div>
@@ -44,7 +44,7 @@
             </div>
             <div class="col-md-4 mb-3">
                 <div class="card p-2">
-                <img src="<?= base_url() ?>assets/img/img_admin/Silvia_Fergina_Debi.png"class="card-img-top bg-bem img-thumbnail " alt="Silvia Fergina Debi">
+                <img src="<?= base_url() ?>assets/img/img_admin/Silvia_Fergina_Debi.png"class="card-img-top bg-cardd img-thumbnail " alt="Silvia Fergina Debi">
                 <div class="card-body">
                     <p class="card-text text-dark">Hidup itu seni. Seni itu hidup. Alam semesta tercipta dari Gusti sang maha seni. "Hukum bukan hanya saja keadilan & kepastian. Tetapi hukum adalah sebuah perenungan seni. Seni memanusiakan manusia serta meng-alamkan alam seisinya".</p>
                 </div>
@@ -55,7 +55,7 @@
         </div>
         <div class="col-md-4 mb-3">
                 <div class="card p-2">
-                <img src="<?= base_url() ?>assets/img/img_admin/Tanti_Liana_dewi.png"class="card-img-top bg-bem img-thumbnail " alt="Tanti Liana Dewi">
+                <img src="<?= base_url() ?>assets/img/img_admin/Tanti_Liana_dewi.png"class="card-img-top bg-cardd img-thumbnail " alt="Tanti Liana Dewi">
                 <div class="card-body">
                     <p class="card-text text-dark">When you have never made a mistake, it means you have not tried anything.</p>
                 </div>
@@ -66,7 +66,7 @@
         </div>
         <div class="col-md-4 mb-3">
                 <div class="card p-2">
-                <img src="<?= base_url() ?>assets/img/img_admin/Bobby_Ardian_Putra.png"class="card-img-top bg-bem img-thumbnail " alt="Bobby Ardian Putra">
+                <img src="<?= base_url() ?>assets/img/img_admin/Bobby_Ardian_Putra.png"class="card-img-top bg-cardd img-thumbnail " alt="Bobby Ardian Putra">
                 <div class="card-body">
                     <p class="card-text text-dark">whatever it takes, I saw I come I conquer</p>
                 </div>
@@ -77,7 +77,7 @@
         </div>
         <div class="col-md-4 mb-3">
                 <div class="card p-2">
-                <img src="<?= base_url() ?>assets/img/img_admin/Evan_Ilham_Laksana.png"class="card-img-top bg-bem img-thumbnail " alt="Evan Ilham Laksana">
+                <img src="<?= base_url() ?>assets/img/img_admin/Evan_Ilham_Laksana.png"class="card-img-top bg-cardd img-thumbnail " alt="Evan Ilham Laksana">
                 <div class="card-body">
                     <p class="card-text text-dark">Cinta itu tidak saling hitung-menghitung. Jika sudah memikirkan "pengorbanan" itu namanya "kalkulasi". -Laksana</p>
                 </div>
@@ -88,7 +88,7 @@
         </div>
         <div class="col-md-4 mb-3">
                 <div class="card p-2">
-                <img src="<?= base_url() ?>assets/img/img_admin/Dian_Febriyanti.png"class="card-img-top bg-bem img-thumbnail " alt="Dian febrianti">
+                <img src="<?= base_url() ?>assets/img/img_admin/Dian_Febriyanti.png"class="card-img-top bg-cardd img-thumbnail " alt="Dian febrianti">
                 <div class="card-body">
                     <p class="card-text text-dark"> Mimpi yang luas, harapan yang tinggi, sikap yang sederhana.</p>
                 </div>
@@ -99,7 +99,7 @@
         </div>
         <div class="col-md-4 mb-3">
                 <div class="card p-2">
-                <img src="<?= base_url() ?>assets/img/img_admin/Evania.png"class="card-img-top bg-bem img-thumbnail " alt="Evania Aria Lisadila">
+                <img src="<?= base_url() ?>assets/img/img_admin/Evania.png"class="card-img-top bg-cardd img-thumbnail " alt="Evania Aria Lisadila">
                 <div class="card-body">
                     <p class="card-text text-dark">Apa yang sudah ditakdirkan untukmu tidak akan pernah melewatkanmu .</p>
                 </div>
@@ -110,7 +110,7 @@
         </div>
         <div class="col-md-4 mb-3">
                 <div class="card p-2">
-                <img src="<?= base_url() ?>assets/img/img_admin/Dede_Indraswara.png"class="card-img-top bg-bem img-thumbnail " alt="Dede Indraswara">
+                <img src="<?= base_url() ?>assets/img/img_admin/Dede_Indraswara.png"class="card-img-top bg-cardd img-thumbnail " alt="Dede Indraswara">
                 <div class="card-body">
                     <p class="card-text text-dark">“Sumber daya manusia yang berintegritas harus ditumbuhkan melalui moralitas dan tanggung jawab"  –Artidjo Alkostar</p>
                 </div>

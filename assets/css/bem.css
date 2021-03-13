@@ -1,7 +1,9 @@
 .bg-bem {
 	background-color: #8d0606;
 }
-
+.bg-cardd{
+	background-color: #d4cfcf;
+} 
 .text-bem {
 	color: #8d0606;
 }
