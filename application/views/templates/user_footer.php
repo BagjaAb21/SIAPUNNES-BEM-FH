@@ -105,7 +105,7 @@
                   fill="#C7C7C7"
                 />
               </svg>
-              <svg class="social-media-c-footer-2-2 social-media-right" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg class="social-media-c-footer-2-2 social-media-right mr-4" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="15" cy="15" r="15" fill="#C7C7C7" />
                 <g clip-path="url(#clip0)">
                   <path
@@ -120,8 +120,8 @@
                 </defs>
               </svg>
             </div>
-            <nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center">
-              <p class="ml-5 mt-2 text-dark" style="margin: 0">Copyright &copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></p>
+            <nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center mm">
+              <p class=" mt-2 text-dark " style="margin: 0">Copyright &copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></p>
             </nav>
           </div>
         </div>
