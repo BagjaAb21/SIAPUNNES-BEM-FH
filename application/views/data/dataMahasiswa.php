@@ -15,13 +15,13 @@
                         <div class="card-header py-3">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <h6 class="m-0 font-weight-bold text-danger">Data Mahasiswa</h6>
+                                    <h6 class="m-0 font-weight-bold text-bem">Data Mahasiswa</h6>
                                 </div>
                                 <div class="col-lg-6 ">
                                     <div class="row m-0">
-                                        <div class="col"><a href="" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modalTambah">Tambah</a></div>
-                                        <div class="col"><a href="" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modalUpload">Import</a></div>
-                                        <div class="col"><a href="" class="btn btn-sm btn-danger" data-toggle="modal" data-target="#modalHapusAngkatan">Hapus Angkatan</a></div>
+                                        <div class="col"><a href="" class="btn btn-sm bg-bem text-white" data-toggle="modal" data-target="#modalTambah">Tambah</a></div>
+                                        <div class="col"><a href="" class="btn btn-sm bg-bem text-white" data-toggle="modal" data-target="#modalUpload">Import</a></div>
+                                        <div class="col"><a href="" class="btn btn-sm bg-bem text-white" data-toggle="modal" data-target="#modalHapusAngkatan">Hapus Angkatan</a></div>
                                     </div>
                                 </div>
                             </div>
@@ -51,10 +51,10 @@
                         <div class="card-header py-3">
                             <div class="row">
                                 <div class="col-lg-6">
-                                    <h6 class="m-0 font-weight-bold text-danger">Data gagal</h6>
+                                    <h6 class="m-0 font-weight-bold text-bem">Data gagal</h6>
                                 </div>
                                 <div class="col-lg-6">
-                                    <a href="<?= base_url(); ?>data/kosongkanTabel" class="btn btn-sm btn-danger">Kosongkan Tabel</a>
+                                    <a href="<?= base_url(); ?>data/kosongkanTabel" class="btn btn-sm bg-bem text-white">Kosongkan Tabel</a>
                                 </div>
                             </div>
                         </div>

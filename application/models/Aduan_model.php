@@ -23,9 +23,7 @@ class Aduan_model extends CI_Model
     }
     function aduan_Perminggu()
     {
-        $query = "SELECT COUNT(`no_aduan`) FROM `aduan` WHERE YEARWEEK(date_created)=YEARWEEK(NOW())
-        GROUP BY YEARWEEK(date_created)";
-        return $this->db->query($query)->result_array();
+        $query = "SELECT COUNT(`no_aduan`) FROM `aduan` WHERE YEARWEEK(date_created)=YEARWEEK(NOW())";
     }
     function Approved()
     {

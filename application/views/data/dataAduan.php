@@ -14,10 +14,10 @@
                 <div class="card-header py-3">
                     <div class="row">
                         <div class="col-lg-10">
-                            <h6 class="m-0 font-weight-bold text-danger">Data Aduan</h6>
+                            <h6 class="m-0 font-weight-bold text-bem">Data Aduan</h6>
                         </div>
                         <div class="col-lg-2">
-                            <a href="<?= base_url(); ?>data/exportaduan" class="btn btn-danger">Export</a>
+                            <a href="<?= base_url(); ?>data/exportaduan" class="btn bg-bem text-white">Export</a>
                         </div>
                     </div>
                 </div>

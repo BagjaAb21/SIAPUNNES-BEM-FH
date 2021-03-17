@@ -28,24 +28,24 @@
               </div>
             </div>      
             <div class="col-lg-4 col-md-6">
-              <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Company</h2>
+              <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Informasi Universitas</h2>
               <nav style="list-style-type: none">
                 <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Contact Us</a>
+                  <a class="list-menu-footer-2-2 text-black">Alamat Kampus</a>
+                  <p>
+                    Sekaran, Kec. Gn. Pati, Kota Semarang, <br>Jawa Tengah 50229
+                  </p>
                 </li>
                 <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Blog</a>
-                </li>
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Culture</a>
-                </li>
-                <li class="list-space-footer-2-2">
-                  <a class="list-menu-footer-2-2">Security</a>
-                </li>
+                  <a class="list-menu-footer-2-2">Kontak Kampus</a>
+                  <p>
+                    Telp: (024) 8508093 <br>
+                    Email: humas@mail.unnes.ac.id
+                  </p>
               </nav>
             </div>
             <div class="col-lg-4 col-md-6">
-              <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Admin</h2>
+              <h2 class="footer-text-title-footer-2-2 list-space-footer-2-2-title">Narahubung</h2>
               <nav style="list-style-type: none">
                 <li class="list-space-footer-2-2">
                   <a class="list-menu-footer-2-2">
@@ -120,8 +120,8 @@
                 </defs>
               </svg>
             </div>
-            <nav class="d-flex flex-lg-row flex-column align-items-center justify-content-center mm">
-              <p class=" mt-2 text-dark " style="margin: 0">Copyright &copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></p>
+            <nav class="d-flex flex-lg-row flex-column align-items-center text-center m-m">
+              <p class=" text-dark mt-3" style="margin: 0"> &copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></p>
             </nav>
           </div>
         </div>

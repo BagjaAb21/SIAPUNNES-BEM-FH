@@ -7,7 +7,7 @@
 
  <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            <span>Copyright &copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></span>
+            <span>&copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></span>
         </div>
     </div>
 </footer>

@@ -14,10 +14,10 @@
                 <div class="card-header py-3">
                     <div class="row">
                         <div class="col-lg-10">
-                            <h6 class="m-0 font-weight-bold text-danger">Data Informasi</h6>
+                            <h6 class="m-0 font-weight-bold text-bem">Data Informasi</h6>
                         </div>
                         <div class="col-lg-2">
-                            <a href="" class="btn btn-danger" data-toggle="modal" data-target="#modalTambah">Tambah Info</a>
+                            <a href="" class="btn bg-bem text-white" data-toggle="modal" data-target="#modalTambah">Tambah Info</a>
                         </div>
                     </div>
                 </div>

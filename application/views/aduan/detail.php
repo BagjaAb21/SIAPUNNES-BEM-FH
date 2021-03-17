@@ -1,5 +1,5 @@
 <div class="container pb-3">
-    <button onclick="topFunction()" id="myBtn" class="btn btn-danger" title="Go to top">Back to top</button>
+    <button onclick="topFunction()" id="myBtn" class="btn bg-merah" title="Go to top">Back to top</button>
     <div class="row">
         <div class="col-lg-8 card ">
             <div class="row mb-3 justify-content-center">
@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="col-lg-3 m-4 card">
-            <h5 class="text-bem mb-3"><u>Info Lainnya</u></h5>
+            <h5 class="text-bem mb-3 mt-3"><u>Info Lainnya</u></h5>
             <?php $i = 1; ?>
             <?php foreach ($infoLain as $ii) : ?>
                 <div class="row m-2">
