@@ -1,17 +1,3 @@
-<section>
-<div class="container-fluid">
-    <div class="col-lg-12">
-        <div class="row justify-content-center">
-            <h3 class="text-white">BEM FH UNIVERSITAS NEGERI SEMARANG</h3>
-        </div>
-    </div>
-</div>
-</section>
-
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,64L120,53.3C240,43,480,21,720,37.3C960,
-53,1200,107,1320,133.3L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
-</path></svg>
-
 <section class="p-3 justify-content-center">
     <h2 class="row justify-content-center text-white mb-5">Cara Penggunaan Aplikasi SiapUnnes</h2>
     <div class=" row container col-md-12 p-3 mb-3 justify-content-center">
@@ -31,8 +17,8 @@
              BADAN EKSEKUTIF MAHASISWA (BEM)
          </h2>
          <div class="row">
-        <div class="col-md-8">
-            <p class="text-black">
+        <div class="col-md-8 pr-5 pl-2">
+            <p class="text-black pr">
                 Badan Eksekutif Mahasiswa <b>BEM</b> FH UNNES adalah suatu lembaga kemahasiswaan yang memiliki tugas pokok dan 
                 fungsi untuk mengabdi dan melayani sehingga terangkai dalam sebuah kata menjadi dedikasi. Dengan begitu dapat di
                 aknai pula BEM berperan sebagai tempat menampung segala aspirasi mahasiswa sekaligus sebagai fasilitator yang 
@@ -49,7 +35,7 @@
             </p>
         </div>
         <div class="col-md-4 mt-3 justify-content-center">
-            <img style="width: 100%" src="<?= base_url() ?>assets/img/img-home/LOGO-BEM.png" alt="">
+            <img class="rounded-circle" style="width: 100%" src="<?= base_url() ?>assets/img/img-home/LOGO-BEM.png" alt="">
         </div>
          </div>
      </div>
@@ -62,9 +48,9 @@
     <div class="col-md-12 mt-3">
         <div class="row">
         <div class="col-md-4 text-center mt-3">
-            <img style="width: 65%" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="">
+            <img class="rounded-circle" style="width: 65%" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="">
         </div>
-        <div class="col-md-8 mt-3">
+        <div class="col-md-8 mt-3 pr-4 pl-2">
             <p>
                 Kementrian Advokasi dan Kesejahteraan Mahasiswa 
                 Adkesma BEM FH UNNES 2021 memiliki harapan panjang dan keyakinan kuat untuk mencapainya, yang mana kami visualisasikan melalui 
@@ -93,7 +79,7 @@
          </h2>
          <div class="row">
         <div class="col-md-8">
-            <p class="text-black">
+            <p class="text-black pl-2 pr-5">
                 Api yang menyala, merupakan perlambangan dari semangat yang terus membara dan tetap ada.<br><br>
 
                 Merah berarti keberanian dan keadilan (warna dasar)<br>
