@@ -7,7 +7,7 @@
 
  <div class="container my-auto">
         <div class="copyright text-center my-auto">
-            <span>&copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></span>
+            <span>&copy; Kementrian Advokasi dan Kesejahteraan Mahasiswa Universitas Negeri Semarang <?= date('Y'); ?></span>
         </div>
     </div>
 </footer>

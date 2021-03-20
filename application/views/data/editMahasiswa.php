@@ -1,5 +1,5 @@
 <!-- Begin Page Content -->
-<div class="container-fluid card p-5">
+<div class="container-fluid p-5">
     <!-- Page Heading -->
     <div class="row">
         <div class="col-lg-12">

@@ -121,7 +121,7 @@
               </svg>
             </div>
             <nav class="d-flex flex-lg-row flex-column align-items-center text-center m-m">
-              <p class=" text-dark mt-3" style="margin: 0"> &copy; BEM Fakultas Hukum Universitas Negeri Semarang <?= date('Y'); ?></p>
+              <p class=" text-dark mt-3" style="margin: 0"> &copy; Kementrian Advokasi dan Kesejahteraan Mahasiswa Universitas Negeri Semarang <?= date('Y'); ?></p>
             </nav>
           </div>
         </div>
