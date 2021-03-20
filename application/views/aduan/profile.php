@@ -5,9 +5,9 @@
     <div class="col-md-12 mt-3">
         <div class="row">
         <div class="col-md-4 text-center mt-3">
-            <img style="width: 65%" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="">
+            <img class="rounded-circle" style="width: 65%" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="">
         </div>
-        <div class="col-md-8 mt-3">
+        <div class="col-md-8 mt-3 pr-4 pl-2">
             <p>
                 Kementrian Advokasi dan Kesejahteraan Mahasiswa 
                 Adkesma BEM FH UNNES 2021 memiliki harapan panjang dan keyakinan kuat untuk mencapainya, yang mana kami visualisasikan melalui 
@@ -41,7 +41,7 @@
         <div class="row justify-content-center mr-2">
             <div class="col-md-4 mb-3 ">
                 <div class="card p-2">
-                    <img src="<?= base_url() ?>assets/img/img_admin/Aldita_Evan_Prihama.png" class="card-img-top bg-cardd img-thumbnail" alt="Aldita Evan Prihama">
+                    <img class="rounded-circle bg-cardd" src="<?= base_url() ?>assets/img/img_admin/Aldita_Evan_Prihama.png" class="card-img-top  img-thumbnail" alt="Aldita Evan Prihama">
                     <div class="card-body">
                         <p class="card-text text-dark">Puncak dari segala Ilmu ialah ketenangan yang melahirkan kedamaian dan keindahan. Keseimbangan pola, rasa, dan kata laksana suara gugurnya daun kering ke tepian akar.</p>
                     </div>

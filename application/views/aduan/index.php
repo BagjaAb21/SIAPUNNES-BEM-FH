@@ -1,5 +1,5 @@
 <section class="p-3 justify-content-center">
-    <h2 class="row justify-content-center text-white mb-5">Cara Penggunaan Aplikasi SiapUnnes</h2>
+    <h2 class="row justify-content-center text-white mb-5">CARA PENGGUNAAN APLIKASI SIAPUNNES</h2>
     <div class=" row container col-md-12 p-3 mb-3 justify-content-center">
         <iframe class=" col-md-12 float-md-end video " type="text/html" src="https://www.youtube.com/embed/Nnr_e9c8p54?controles=1&origin=wibloog.com?autoplay=1&mute=1" 
         alt="Video cara penggunaan siapunnes" allow = "autoplay;" allowfullscreen></iframe>

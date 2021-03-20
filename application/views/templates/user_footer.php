@@ -9,7 +9,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="">
                 <div class="list-space-footer-2-2">
-                   <img class=" logo-footer" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="" /> 
+                   <img class=" logo-footer rounded-circle" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="" /> 
                 </div>
                 <nav style="list-style-type: none">
                   <li class="list-space-footer-2-2">
