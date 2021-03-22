@@ -10,7 +10,7 @@
     <meta name="author" content="">
 
 
-    <link rel="icon" href="<?= base_url('assets/'); ?>">
+    <link rel="icon" href="<?= base_url('assets/img/logo/Logo_Transparan.png'); ?>">
     <title><?= $title; ?> </title>
 
     <!-- Custom fonts for this template-->

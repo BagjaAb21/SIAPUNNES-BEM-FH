@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="icon" href="<?= base_url('assets/'); ?>img/brand/icon.png">
+    <link rel="icon" href="<?= base_url('assets/img/logo/Logo_Transparan.png'); ?>">
     <title><?= $title; ?> </title>
     <!-- from elements BWA -->
     
