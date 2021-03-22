@@ -1,6 +1,6 @@
 <section class="p-3">
     <h2 class="text-white text-center mb-5">
-        KEMENTERIAN ADVOKASI DAN KESEHATERAAN MAHASISWA <br> (ADKESMA)
+        KEMENTERIAN ADVOKASI DAN KESEJAHTERAAN MAHASISWA <br> (ADKESMA)
     </h2>
     <div class="col-md-12 mt-3">
         <div class="row">
@@ -39,9 +39,9 @@
     </div>
 
     <div class="row justify-content-center mr-2">
-        <div class="col-md-4 mb-3 ">
+        <div class="col-md-4 mb-3"  width="330">
             <div class="card p-2">
-                <img class="rounded-circle bg-cardd" src="<?= base_url() ?>assets/img/img_admin/Aldita_Evan_Prihama.png" class="card-img-top  img-thumbnail" alt="Aldita Evan Prihama">
+                <img class="bg-cardd" src="<?= base_url() ?>assets/img/img_admin/Aldita_Evan_Prihama.png" class="card-img-top  img-thumbnail" alt="Aldita Evan Prihama">
                 <div class="card-body">
                     <p class="card-text text-dark">Puncak dari segala Ilmu ialah ketenangan yang melahirkan kedamaian dan keindahan. Keseimbangan pola, rasa, dan kata laksana suara gugurnya daun kering ke tepian akar.</p>
                 </div>
