@@ -9,7 +9,7 @@
             <div class="col-lg-4 col-md-6">
               <div class="">
                 <div class="list-space-footer-2-2">
-                   <img class=" logo-footer rounded-circle" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="" /> 
+                   <img class=" logo-footer rounded-circle" width="100" src="<?= base_url() ?>assets/img/logo/Logo_Transparan.png" alt="" /> 
                 </div>
                 <nav style="list-style-type: none">
                   <li class="list-space-footer-2-2">
@@ -121,7 +121,7 @@
               </svg>
             </div>
             <nav class="d-flex flex-lg-row flex-column align-items-center text-center m-m">
-              <p class=" text-dark mt-3" style="margin: 0"> &copy; Kementrian Advokasi dan Kesejahteraan Mahasiswa Universitas Negeri Semarang <?= date('Y'); ?></p>
+              <p class=" text-dark mt-3" align="justify" style="margin: 0"> &copy; Kementrian Advokasi dan Kesejahteraan Mahasiswa Universitas Negeri Semarang <?= date('Y'); ?></p>
             </nav>
           </div>
         </div>

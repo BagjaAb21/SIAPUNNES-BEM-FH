@@ -1,7 +1,7 @@
 <section class="p-3 justify-content-center">
     <h2 class="row justify-content-center text-white mb-5">CARA PENGGUNAAN APLIKASI SIAPUNNES</h2>
     <div class=" row container col-md-12 p-3 mb-3 justify-content-center">
-        <iframe width="100%" height="500" src="https://www.youtube.com/embed/Nnr_e9c8p54?autoplay=1&mute=1" alt="Video cara penggunaan siapunnes" allowfullscreen></iframe>
+        <iframe width="100%" height="500" src="https://www.youtube.com/embed/Nnr_e9c8p54?autoplay=1&mute=1" controls autoplay alt="Video cara penggunaan siapunnes" allowfullscreen> frameborders="1"</iframe>
         <p class="mt-3" align="center">
             Video di atas merupakan tata cara pengiriman aduan dari mulai mengisi aduan hingga selesai dan sampai ke bagaimana
             tindakan admin dan kita sebagai user/mahasiswa yang menyampaikan aduan/aspirasi kita sejauh mana sudah di tanggapi nya.
@@ -34,7 +34,7 @@
                 </p>
             </div>
             <div class="col-md-4 mt-3 justify-content-center">
-                <img class="rounded-circle" style="width: 100%" src="<?= base_url() ?>assets/img/img-home/LOGO-BEM.png" alt="">
+                <img class="rounded-circle" width="400" src="<?= base_url() ?>assets/img/img-home/LOGO-BEM.png" alt="">
             </div>
         </div>
     </div>
@@ -42,12 +42,12 @@
 
 <section class="p-3">
     <h2 class="text-white text-center mt-3 mb-5">
-        KEMENTERIAN ADVOKASI DAN KESEHATERAAN MAHASISWA <br> (ADKESMA)
+        KEMENTERIAN ADVOKASI DAN KESEJAHTERAAN MAHASISWA <br> (ADKESMA)
     </h2>
     <div class="col-md-12 mt-3">
         <div class="row">
             <div class="col-md-4 text-center mt-3">
-                <img class="rounded-circle" style="width: 65%" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="">
+                <img class="rounded-circle" width="300" src="<?= base_url() ?>assets/img/img-home/logo-adkesma.png" alt="">
             </div>
             <div class="col-md-8 mt-3 pr-4 pl-2" align="justify">
                 <p>
@@ -102,7 +102,7 @@
                 </p>
             </div>
             <div class="col-md-4 mt-3 text-center">
-                <img style="width: 80%" src="<?= base_url() ?>assets/img/img-home/Logo-Kabinet.png" alt="">
+                <img width="300" src="<?= base_url() ?>assets/img/img-home/Logo-Kabinet.png" alt="">
             </div>
         </div>
     </div>
